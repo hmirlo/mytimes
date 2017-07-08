@@ -29,28 +29,18 @@ color: black;
 
 .content {
   display: flex;
-  margin-top: 100px;
+  width: 1232px;
+  margin: 0 auto;
+  padding-top: 116px;
+
 
 }
 /* column CSS */
-/*<!-- story div-->
-</div> <!-- stories div -->
-</div> <!-- lead-story div-->
-</div> <!-- large column div-->
-*/
 
-.stories,
-.lead-story,
-.story,
-.text-content
- {
-  display: flex;
-  flex-direction: column;
-  
-}
 
- .column .large {
+.column .large {
 width: 630px;
+
 
 }
 
@@ -67,6 +57,8 @@ width: 630px;
  .research {
   background-image: url("../images/img-story-2.png	");
 }
+
+/* medium column */
  .column .medium {
   width: 300px;
 }
@@ -75,7 +67,8 @@ width: 630px;
    background-image: url("../images/img-story-3.png");
 }
 
- .small {
+/* small column */
+ .column .small {
 width: 240px;
 }
 
@@ -84,9 +77,7 @@ width: 240px;
 }
 
 /* General column CSS */
-.main .story {
 
-}
   .narrative {
   font-family: Georgia;
   font-size: 17px;
@@ -95,17 +86,42 @@ width: 240px;
 .column {
 display: flex;
 flex-direction: column;
-margin-right: 31px;
-align-items: flex-start;
-}
+margin-right: 32px;
 
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+
+}
 .image span {
  font-family: Georgia;
  font-weight: bold;
  font-size: 30px;
  color: white;
- align-items: center;
  display: flex;
+}
+
+.stories h2 .image .text-content {
+  align-items: flex-start;
+}
+
+.stories,
+.lead-story,
+.story,
+.text-content,
+ {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.lead-story .image {
+  text-align: left;
+  font-size: 40px;
+  margin-top: 0;
 }
 
 
