@@ -38,7 +38,7 @@ color: black;
 /* column CSS */
 
 
-.column .large {
+.column.large {
 width: 630px;
 
 
@@ -59,7 +59,7 @@ width: 630px;
 }
 
 /* medium column */
- .column .medium {
+ .column.medium {
   width: 300px;
 }
 
@@ -68,7 +68,7 @@ width: 630px;
 }
 
 /* small column */
- .column .small {
+ .column.small {
 width: 240px;
 }
 
@@ -102,28 +102,28 @@ margin-right: 32px;
  font-size: 30px;
  color: white;
  display: flex;
-}
+ 
 
-.stories h2 .image .text-content {
-  align-items: flex-start;
-}
+ }
 
-.stories,
-.lead-story,
-.story,
-.text-content,
- {
+
+
+.stories {
+  justify-content: space-between;
   display: flex;
-  flex-direction: column;
-
+  margin-top: 17px;
 }
 
-.lead-story .image {
+
+
+.lead-story  {
   text-align: left;
   font-size: 40px;
   margin-top: 0;
 }
 
+.lead-story {
+display: block;}
 
 /* body CSS */
 div {
