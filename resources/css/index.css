@@ -7,7 +7,6 @@ body {
   font-size: 17px;
   color: black;
 }
-
 .header {
   font-family: Verdana;
   font-size: 14px;
@@ -28,7 +27,6 @@ body {
   align-items: center;
   width: 800px;
 }
-
 .head-nav span {
 padding: 20px 10px;
 margin-left: 5px;
@@ -44,16 +42,11 @@ color: black;
   width: 1232px;
   margin: 0 auto;
   padding-top: 116px;
-
-
 }
 /* column CSS */
 
-
 .column.large {
 width: 630px;
-
-
 }
 
  .mother {
@@ -69,12 +62,10 @@ width: 630px;
  .research {
   background-image: url("../images/img-story-2.png	");
 }
-
 /* medium column */
  .column.medium {
   width: 300px;
 }
-
  .cats {
    background-image: url("../images/img-story-3.png");
 }
@@ -88,7 +79,6 @@ h2 {
  .column.small {
 width: 240px;
 text-align: center;
-
 }
 
 .cookie {
@@ -101,10 +91,8 @@ text-align: center;
  font-weight: bold;
  text-align: center;
  margin-bottom: 41px;
-
 }
- .news-bites .bites   {
-
+ .news-bites .bite   {
  padding: 11px 20px;
  display: block;
  border-bottom: black 1px solid;
@@ -115,12 +103,44 @@ text-align: center;
 
 }
 
-.bites {
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 350px;
+  margin-top: 80px;
 
 }
 
-/* General column CSS */
+.f-div .f-h3 {
+font-family: Georgia;
+font-size: 16px;
+font-weight: bold;
+color: white;
+pading-right: 25px;
+border-right: 2px solid white;
+display: inline-block;
+}
 
+.footer nav {
+display: inline-block;
+  padding-left: 25px;
+}
+nav span {
+  padding: 20px 10px;
+  display: inline-block;
+  color: black;
+}
+.footer a {
+  color: black;
+
+}
+/* General column CSS */
   .narrative {
   font-family: Georgia;
   font-size: 17px;
@@ -153,12 +173,7 @@ margin-right: 32px;
  font-size: 30px;
  color: white;
  display: flex;
-
-
-
  }
-
-
 
 .stories {
   justify-content: space-between;
