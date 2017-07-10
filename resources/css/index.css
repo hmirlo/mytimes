@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  color: black;
+}
+
 .header {
   font-family: Verdana;
   font-size: 14px;
@@ -46,7 +53,7 @@ width: 630px;
 
  .mother {
   background-image: url("../images/img-story-main.png");
-  display: flex;
+  width: 630px;
 
 }
 
@@ -102,7 +109,7 @@ margin-right: 32px;
  font-size: 30px;
  color: white;
  display: flex;
- 
+
 
  }
 
@@ -114,16 +121,21 @@ margin-right: 32px;
   margin-top: 17px;
 }
 
-
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right:10px;
+}
 
 .lead-story  {
   text-align: left;
   font-size: 40px;
   margin-top: 0;
+  display: block;
 }
 
 .lead-story {
-display: block;}
 
 /* body CSS */
 div {
